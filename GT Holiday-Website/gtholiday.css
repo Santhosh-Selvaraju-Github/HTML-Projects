@@ -1,0 +1,232 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif !important;
+}
+/* header starts */
+#header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+#s1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #000000;
+    color: white;
+}
+#s1 #icon{
+    width: 10%;            
+}
+#icon ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 15px;
+    border-right: 1px solid rgba(100, 100, 193, 0.727);
+}
+#icon ul li{
+    display: inline-block;
+}
+#icon li:hover{
+    cursor: pointer;
+}
+#icon i{
+    color: #ffd600;
+    font-size: 25px;
+}
+#s1 #link{
+    width: 100%;
+    /* border-left: 1px solid rgba(100, 100, 193, 0.727); */
+}
+#link ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: small;
+    padding-right: 50px;
+    padding-top: 4px;
+}
+#link ul li{
+    display: inline-block;
+}
+#link li:hover{
+    cursor: pointer;
+}
+#nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    font-family:"Poppins", sans-serif !important;
+    font-weight: 800;
+    font-size:small;    
+    color: #333;
+    background-color: white;
+}
+#nav div{
+    width: 100%;
+    display: flex;
+}
+#nav #design{
+    width: 52%;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 0;
+}
+#design img{
+    width: 100%;
+    height: 90px;
+}
+#nav #path{
+    width: 160%;
+    display: flex;
+    margin: 0;
+    padding: 0;                
+}
+#path ul{
+    width: 100%;
+    padding: 0;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#path ul li{
+    display: inline-block;
+}
+#nav #phoneNumber{
+    width: 40%;
+    margin: 20px 0;
+    padding: 0;
+}
+#phoneNumber button{
+    letter-spacing: 0.2rem;
+    font-size:medium;
+    font-weight: 700;
+    background-color: #ffd600;
+    border: none;
+}
+#phoneNumber button:hover{
+    background-color: #1c1c1c;
+    color: #bdbdbd !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* header end */
+/* main start */
+#main{
+    width: 100%;
+}
+#banner{
+    width: 100%;
+}
+#banner img{
+    width: 100%;
+    height: 500px;
+}
+#articleHead{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 300;
+    font-size: small;
+    color: gray;
+}
+#topic{
+    width: 10%;                
+}
+#topic ul{
+    display: flex;
+    padding: 0;
+    justify-content: space-between;                
+}
+#topic li{
+    list-style-type: none;                
+}
+#article{
+    font-family: 'Playfair Display', serif !important;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 1.5;                
+}
+#article div{
+    width: 100%;
+}
+#article #history h1{
+    width: 100%;
+    font-family: 'Playfair Display', serif !important;
+    font-size: 28px;
+    font-weight: 500;
+}
+#article #history p{
+    width: 100%;
+    font-family: 'Playfair Display', serif !important;
+    color: gray;text-align: justify;
+}
+#article #tourList{
+    width: 100%;
+}
+#register{
+    height: 200px;
+    background-color: #eee;
+    color: #1A2B48;
+    font-family: "Poppins", sans-serif !important;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+}
+#thoughts{                
+    color: #1A2B48;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 70px;
+    line-height: 1.5rem;
+}
+#thoughts img{
+    width: 80px;
+    height: 80px;
+}
+#thoughts h1{
+    font-family: 'Playfair Display', serif !important;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 20px;
+}
+#thoughts h1 p{
+    font-family: "Poppins", sans-serif !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+#mail{
+    width: 100%;
+    display: flex;
+    padding-top: 70px;
+}
+#mail input{
+    height: 50px;
+    width: 60%;
+    border-color: rgba(128, 128, 128, 0.276);
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+#mail #subscribe{
+    height: 55px;
+    width: 25%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-weight: 700;
+}
+#subscribe{
+    cursor: pointer;
+}
